@@ -1,0 +1,111 @@
+.gradient{
+    background: linear-gradient(to right, #0000FF, #8B0000);
+
+}
+
+
+
+form{
+    background-color: rgb(221, 221, 221);
+    text-align: center;
+    max-width: 380px;
+ 
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.maincontent{
+    margin-bottom: 5%;
+    margin-top: -3%;
+}
+
+.gradient2{
+    background: linear-gradient(to right, #8B0000 , #0000FF);
+}
+
+#inputnum{
+    text-align: center;
+    
+}
+
+label{
+    font-weight: bold;
+}
+
+.btn{
+ width: 60%;
+}
+
+.btn:hover{
+    background-color: rgb(201, 0, 0);
+    color: white;
+}
+
+.maincontent{
+    margin: 5%;
+    display: flex;
+    gap: 8px;
+    justify-content:space-around;
+}
+
+.resultcontainer{
+    padding: 15px;
+    text-align: center;
+    background-color:
+    rgb(240, 240, 240) ;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    margin-top: 6em;
+    
+}
+
+#result{
+   font-size: 25px;
+    
+    
+}
+
+.resultinput{
+    border: 1px solid grey;
+    
+}
+@media (max-width:700px){
+
+
+    .maincontent {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .resultcontainer {
+        margin-top: 0;
+    }
+
+   .inputdiv{
+    width: 100%;
+    display: flex;
+   }
+
+   input[type="number"] {
+    width: 100%; 
+    font-size: 14px; 
+    padding: 8px;
+}
+
+    form label{
+        font-size: 14px;
+    }
+
+    form{
+        max-width: 260px;
+    }
+
+  
+    #result{
+        font-size: 25px;
+         margin-top: 68px;
+         
+         text-align: center;
+     }
+}
